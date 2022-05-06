@@ -1,0 +1,56 @@
+.mainCardStyle {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 0 20px 20px 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px darkgray;
+    background-image: url("../Images/illustration-hero.svg");
+    background-repeat: no-repeat;
+}
+
+.mainCardImageStyle {
+    width: 390px;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+}
+
+.annualPlanCardStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 270px;
+    padding: 0 20px;
+}
+
+.annualPlanCardImage {
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.annualPlanChangeLink {
+    color: rgb(56, 42, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.annualPlanChangeLink:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 250px;
+}
