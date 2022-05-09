@@ -4,11 +4,15 @@ import AnnualPlanCard from "./annualPlanCard";
 import ProceedToPayment from "../Buttons/proceedToPayment";
 import CancelOrder from "../Buttons/cancelOrder";
 import styles from "./card.module.css";
+import image from "../Images/illustration-hero.svg";
 
 function MainCard() {
     return (
         <div className={styles.mainCardStyle}>
-            <div className={styles.card}>
+
+            <img className={styles.imageStyle} src={image} alt="girl dancing to music"/>
+
+            <div className={styles.cardStyle}>
                 <Typography/>
 
                 <AnnualPlanCard/>

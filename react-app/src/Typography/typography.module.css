@@ -1,0 +1,10 @@
+.headerStyle {
+    color: hsl(223, 47%, 23%);
+    margin: 5px 0;
+}
+
+.bodyStyle {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin: 5px 0;
+}
